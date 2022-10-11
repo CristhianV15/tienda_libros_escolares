@@ -31,4 +31,5 @@ public interface LibroescolarFacadeLocal {
     int buscarStockLibro(int codigo);
     int count();
     
+     List<Libroescolar> buscarMatematica(Libroescolar le);
 }

@@ -33,6 +33,17 @@ public class ManagedLibroEscolar {
     private Categorialibro catlibro;
     private Editoriallibro edlibro;
 
+    //Lista de filtros
+    private List<Libroescolar> listarMatematica;
+    public List<Libroescolar> getListarMatematica() {
+        listarMatematica= libroescolarFacadeLocal.buscarMatematica(libroescolar);
+        return listarMatematica;
+    }
+
+    public void setListarMatematica(List<Libroescolar> listarMatematica) {
+        this.listarMatematica = listarMatematica;
+    }
+    
     public List<Libroescolar> getListarLibroEscolar() {
         this.listarLibroEscolar= libroescolarFacadeLocal.findAll();
         return listarLibroEscolar;
@@ -73,13 +84,15 @@ public class ManagedLibroEscolar {
         if(stock!=0){
             //Hay stock disponible, ir a libro_vermas
             verPagina = "/paginas/libro_vermas.xhtml";
-            System.out.print("lo lograste prro");
+            System.out.print("Ver mas");
         }
         else{
             //verPagina = "/paginas/libros_notifi_stock.xhtml";
-            System.out.print("sigue intentando :v  prro");
+            System.out.print("Sin stock");
         }
         return verPagina;
     }
+
+    
 }
                                 

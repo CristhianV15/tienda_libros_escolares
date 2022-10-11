@@ -70,4 +70,10 @@ public abstract class AbstractFacade<T> {
         query.setParameter(1, codigo);
         return ((Long) query.getSingleResult()).intValue();
     }
+    
+    public List<Object[]> listarMatematica(){
+        String jpql = "Select * from libroescolar where idCategoria = 1";
+        Query query = getEntityManager().createQuery(jpql);
+        return query.getResultList();
+    }
 }

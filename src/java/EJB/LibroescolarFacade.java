@@ -6,6 +6,7 @@
 package EJB;
 
 import entidad.Libroescolar;
+import java.util.List;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -28,5 +29,11 @@ public class LibroescolarFacade extends AbstractFacade<Libroescolar> implements 
     public LibroescolarFacade() {
         super(Libroescolar.class);
     }
+
+    @Override
+    public int buscarStockLibro(int codigo) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     
 }

@@ -3,31 +3,25 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/controlador/ManagedLibroEscolar.java</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/web/LibroEscolar/listar.xhtml</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/EJB/ClientesFacade.java</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/EJB/CategorialibroFacade.java</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/EJB/DetalleventaFacadeLocal.java</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/controlador/ManagedCategoriaLibro.java</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/web/categoriaLibro/listar.xhtml</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/EJB/VentasFacadeLocal.java</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/web/index.xhtml</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/web/categoriaLibro/editar.xhtml</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/EJB/ClientesFacadeLocal.java</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/EJB/LibroescolarFacadeLocal.java</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/web/categoriaLibro/crear.xhtml</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/web/LibroEscolar/editar.xhtml</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/entidad/Categorialibro.java</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/EJB/EditoriallibroFacadeLocal.java</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/EJB/AbstractFacade.java</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/web/LibroEscolar/crear.xhtml</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/EJB/VentasFacade.java</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/EJB/NotificacionclienteFacadeLocal.java</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/EJB/NotificacionclienteFacade.java</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/EJB/CategorialibroFacadeLocal.java</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/EJB/LibroescolarFacade.java</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/EJB/DetalleventaFacade.java</file>
-            <file>file:/D:/UTP/LabIntegracionI/TiendaLibros/src/java/EJB/EditoriallibroFacade.java</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/template/plantilla.xhtml</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/src/java/EJB/ClientesFacade.java</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/src/java/EJB/NotificacionclienteFacade.java</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/resources/css/miestilo.css</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/src/java/EJB/LibroescolarFacadeLocal.java</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/paginas/libros_notifi_stock.xhtml</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/LibroEscolar/inicioLibroListar.xhtml</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/LibroEscolar/adicional.xhtml</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/resources/css/estilo2filtros.css</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/template/miPlantilla.xhtml</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/LibroEscolar/listar.xhtml</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/src/java/EJB/AbstractFacade.java</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/paginas/libro_vermas.xhtml</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/src/java/controlador/ManagedLibroEscolar.java</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/src/java/entidad/Libroescolar.java</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/src/java/EJB/LibroescolarFacade.java</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/paginas/inicioLibrosFiltros.xhtml</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/index.xhtml</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/paginas/inicioLibros.xhtml</file>
         </group>
     </open-files>
 </project-private>

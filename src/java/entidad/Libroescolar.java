@@ -40,6 +40,7 @@ import javax.xml.bind.annotation.XmlTransient;
     , @NamedQuery(name = "Libroescolar.findByStock", query = "SELECT l FROM Libroescolar l WHERE l.stock = :stock")
     , @NamedQuery(name = "Libroescolar.findByPrecio", query = "SELECT l FROM Libroescolar l WHERE l.precio = :precio")
     , @NamedQuery(name = "Libroescolar.findByImagen", query = "SELECT l FROM Libroescolar l WHERE l.imagen = :imagen")
+    , @NamedQuery(name = "Libroescolar.findByMatematica", query = "SELECT * FROM libroescolar WHERE idCategoria = 1")
     , @NamedQuery(name = "Libroescolar.findByEstado", query = "SELECT l FROM Libroescolar l WHERE l.estado = :estado")})
 public class Libroescolar implements Serializable {
 
@@ -218,5 +219,6 @@ public class Libroescolar implements Serializable {
     public String toString() {
         return "entidad.Libroescolar[ idLibroEscolar=" + idLibroEscolar + " ]";
     }
+    
     
 }

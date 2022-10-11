@@ -5,8 +5,10 @@
  */
 package EJB;
 
+import entidad.Libroescolar;
 import java.util.List;
 import javax.persistence.EntityManager;
+import javax.persistence.Query;
 
 /**
  *
@@ -60,5 +62,19 @@ public abstract class AbstractFacade<T> {
         javax.persistence.Query q = getEntityManager().createQuery(cq);
         return ((Long) q.getSingleResult()).intValue();
     }
-    
+
+    //Buscar stock
+    public int buscarStockLibro(int codigo) {
+        String jpql = "SELECT stock FROM libroescolar WHERE estado = 1 and idLibroEscolar = ?1";
+        Query query = getEntityManager().createQuery(jpql);
+        query.setParameter(1, codigo);
+        return ((Long) query.getSingleResult()).intValue();
+    }
+
+    //Consultas para filtros
+    public List<Libroescolar> buscarMatematica(Libroescolar le) {
+        String jpql = "SELECT * FROM libroescolar WHERE idCategoria = 1";
+        Query query = getEntityManager().createQuery(jpql);
+        return query.getResultList();
+    }
 }

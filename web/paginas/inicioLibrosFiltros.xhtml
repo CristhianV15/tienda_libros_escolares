@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:outputStylesheet name="/css/estilo2filtros.css"></h:outputStylesheet>  
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h:outputStylesheet name="/css/estilo2filtros.css"></h:outputStylesheet>  
+
+        <div class="header">
+            <h1>Header</h1>
+            <p>Resize the browser window to see the responsive effect.</p>
+        </div>
+
+        <div class="topnav">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </div>
+
+        <div class="row">
+            <div class="column side">
+                <h2>Filtros</h2>
+                <p>Aqui van los filtros</p>
+            </div>
+
+            <div class="column middle">
+                
+	<!-- Contenedor Principal  -->
+	<div class="main-wrapper">
+		<!-- Titulo -->
+		<h1 class="main-title">Materias</h1>
+
+		<div class="container">
+			<!-- Inputs de las Categorias -->
+			<input name="category-css" id="all" type="radio" ></input>
+			<input name="category-css" id="webdesign" type="radio"></input>
+			<input name="category-css" id="webdevelopment" type="radio"></input>
+			<input name="category-css" id="graphicdesign" type="radio"></input>
+			<input name="category-css" id="javascript" type="radio"></input>
+			
+			<!-- Categorias -->
+			<ul class="list-category">
+				<li><label for="all">Matematica</label></li>
+				<li><label for="webdesign">Comunicacion</label></li>
+				<li><label for="webdevelopment">Ciencia y ambiente</label></li>
+				<li><label for="graphicdesign">Personal Social</label></li>
+			</ul>
+		</div>
+	</div>
+                <h:form>
+                <div class="libro">
+                    <h:dataTable value="#{managedLibroEscolar.listarLibroEscolar}" var="l" class="table table-bordered table-striped">
+                        <div class="gallery">
+                            <h:column> 
+                                <div class="container">
+                                    <h:graphicImage value="#{l.imagen}" width="75%"></h:graphicImage>
+                                </div> 
+                            </h:column>
+                            <div class="desc">
+                                <h:column>
+                                    <p><h:outputText value="#{l.nombre}"></h:outputText></p>
+                                    <p><h:outputText value="#{l.precio}"></h:outputText></p>
+                                </h:column>
+                                <h:column>
+                                    <p><h:commandButton value="Ver más"></h:commandButton>
+                                    <h:commandButton value="Agregar al carro"></h:commandButton></p>
+                                </h:column>
+
+                            </div></div>
+                    </h:dataTable>
+                </div>
+            </h:form>
+            </div>
+
+           
+        </div>
+
+    </h:body>
+</html>
+

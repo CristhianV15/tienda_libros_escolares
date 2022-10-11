@@ -27,7 +27,8 @@ public interface LibroescolarFacadeLocal {
     List<Libroescolar> findAll();
 
     List<Libroescolar> findRange(int[] range);
-
+    
+    int buscarStockLibro(int codigo);
     int count();
     
 }

@@ -5,8 +5,10 @@
  */
 package EJB;
 
+import entidad.Libroescolar;
 import java.util.List;
 import javax.persistence.EntityManager;
+import javax.persistence.Query;
 
 /**
  *
@@ -61,4 +63,11 @@ public abstract class AbstractFacade<T> {
         return ((Long) q.getSingleResult()).intValue();
     }
     
+    //Buscar stock
+    public int buscarStockLibro(int codigo){
+        String jpql= "SELECT stock FROM libroescolar WHERE estado = 1 and idLibroEscolar = ?1";
+        Query query = getEntityManager().createQuery(jpql);
+        query.setParameter(1, codigo);
+        return ((Long) query.getSingleResult()).intValue();
+    }
 }

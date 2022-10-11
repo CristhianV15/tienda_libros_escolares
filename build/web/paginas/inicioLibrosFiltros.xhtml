@@ -1,3 +1,4 @@
+
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
@@ -27,6 +28,29 @@
             </div>
 
             <div class="column middle">
+                
+	<!-- Contenedor Principal  -->
+	<div class="main-wrapper">
+		<!-- Titulo -->
+		<h1 class="main-title">Materias</h1>
+
+		<div class="container">
+			<!-- Inputs de las Categorias -->
+			<input name="category-css" id="all" type="radio" ></input>
+			<input name="category-css" id="webdesign" type="radio"></input>
+			<input name="category-css" id="webdevelopment" type="radio"></input>
+			<input name="category-css" id="graphicdesign" type="radio"></input>
+			<input name="category-css" id="javascript" type="radio"></input>
+			
+			<!-- Categorias -->
+			<ul class="list-category">
+				<li><label for="all">Matematica</label></li>
+				<li><label for="webdesign">Comunicacion</label></li>
+				<li><label for="webdevelopment">Ciencia y ambiente</label></li>
+				<li><label for="graphicdesign">Personal Social</label></li>
+			</ul>
+		</div>
+	</div>
                 <h:form>
                 <div class="libro">
                     <h:dataTable value="#{managedLibroEscolar.listarLibroEscolar}" var="l" class="table table-bordered table-striped">
@@ -57,4 +81,3 @@
 
     </h:body>
 </html>
-

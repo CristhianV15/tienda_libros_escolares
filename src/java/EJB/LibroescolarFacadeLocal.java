@@ -32,5 +32,6 @@ public interface LibroescolarFacadeLocal {
     int count();
     
      List<Libroescolar> buscarMatematica(Libroescolar le);
+
      
 }

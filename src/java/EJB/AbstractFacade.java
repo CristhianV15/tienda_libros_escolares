@@ -78,4 +78,6 @@ public abstract class AbstractFacade<T> {
         return query.getResultList();
     }
     
+    
+   
 }

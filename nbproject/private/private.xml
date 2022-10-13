@@ -3,17 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/template/miPlantilla.xhtml</file>
-            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/LibroEscolar/listar.xhtml</file>
-            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/template/plantilla.xhtml</file>
-            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/paginas/newjsf.xhtml</file>
-            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/resources/css/miestilo.css</file>
-            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/paginas/inicioLibrosFiltros.xhtml</file>
-            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/LibroEscolar/inicioLibroListar.xhtml</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/src/java/EJB/LibroescolarFacadeLocal.java</file>
             <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/LibroEscolar/adicional.xhtml</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/LibroEscolar/listar.xhtml</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/src/java/EJB/AbstractFacade.java</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/paginas/libro_vermas.xhtml</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/src/java/controlador/ManagedLibroEscolar.java</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/src/java/EJB/EditoriallibroFacadeLocal.java</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/src/java/entidad/Libroescolar.java</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/src/java/EJB/LibroescolarFacade.java</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/src/java/EJB/EditoriallibroFacade.java</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/categoriaLibro/crear.xhtml</file>
+            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/paginas/inicioLibrosFiltros.xhtml</file>
             <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/index.xhtml</file>
             <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/paginas/inicioLibros.xhtml</file>
-            <file>file:/F:/Documents/GitHub/tienda_libros_escolares/web/resources/css/estilo2filtros.css</file>
         </group>
     </open-files>
 </project-private>
